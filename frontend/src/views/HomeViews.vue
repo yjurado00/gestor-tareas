@@ -50,7 +50,7 @@ onMounted(loadTasks)
 
 <template>
   <main>
-    <h1 style="color:red;" >Gestor de Tareas</h1 >
+    <h1>Gestor de Tareas</h1>
     <p v-if="message" class="success">{{ message }}</p>
     <TaskForm @task-created="onTaskCreated" />
     <div class="filters">
@@ -68,4 +68,3 @@ onMounted(loadTasks)
     <p v-if="filteredTasks.length === 0">No hay tareas.</p>
   </main>
 </template>
-

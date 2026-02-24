@@ -100,4 +100,8 @@ img{
     width: 30%; 
 }
 
+p{
+  color:black;
+}
+
 </style>
